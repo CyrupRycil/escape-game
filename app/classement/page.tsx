@@ -1,8 +1,8 @@
 'use client'
 
 import { useEffect, useState } from 'react'
-import { supabase } from '@/lib/supabase'
-import { Equipe, EquipeEnigmeStat, Enigme } from '@/lib/types'
+import { supabase } from '../../lib/supabase'
+import { Equipe, EquipeEnigmeStat, Enigme } from '../../lib/types'
 
 function tempsTotal(stats: EquipeEnigmeStat[]): number {
   return stats.reduce((acc, s) => {

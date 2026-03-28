@@ -2,8 +2,8 @@
 
 import { useEffect, useState } from 'react'
 import { useParams, useRouter } from 'next/navigation'
-import { supabase } from '@/lib/supabase'
-import { Enigme, Equipe, EquipeEnigmeStat } from '@/lib/types'
+import { supabase } from '../../../lib/supabase'
+import { Enigme, Equipe, EquipeEnigmeStat } from '../../../lib/types'
 // ─── Fonctions utilitaires ───────────────────────────────────────
 
 function duree(started_at: string, finished_at: string | null): string {

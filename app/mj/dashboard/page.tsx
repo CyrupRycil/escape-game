@@ -2,8 +2,8 @@
 
 import { useEffect, useState } from 'react'
 import { useRouter } from 'next/navigation'
-import { supabase } from '@/lib/supabase'
-import { Enigme, Equipe, EquipeEnigmeStat } from '@/lib/types'
+import { supabase } from '../../../lib/supabase'
+import { Enigme, Equipe, EquipeEnigmeStat } from '../../../lib/types'
 
 function Timer({ startedAt }: { startedAt: string }) {
   const [elapsed, setElapsed] = useState(0)

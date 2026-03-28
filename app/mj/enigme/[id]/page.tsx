@@ -2,8 +2,8 @@
 
 import { useEffect, useState } from 'react'
 import { useRouter, useParams } from 'next/navigation'
-import { supabase } from '@/lib/supabase'
-import { Enigme } from '@/lib/types'
+import { supabase } from '../../../../lib/supabase'
+import { Enigme } from '../../../../lib/types'
 
 export default function MJEditEnigme() {
   const { id } = useParams()
