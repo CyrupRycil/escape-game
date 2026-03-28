@@ -11,8 +11,3 @@ const nextConfig: NextConfig = {
 };
 
 export default nextConfig;
-```
-
-Remets aussi le build command à la normale dans **Vercel → Settings → General → Build Command** :
-```
-next build
