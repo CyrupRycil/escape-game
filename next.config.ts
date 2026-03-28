@@ -1,13 +1,5 @@
 import type { NextConfig } from "next";
 
-const nextConfig: NextConfig = {
-  experimental: {
-    turbopack: {
-      resolveAlias: {
-        '@': '.',
-      },
-    },
-  },
-};
+const nextConfig: NextConfig = {};
 
 export default nextConfig;
